@@ -1,0 +1,27 @@
+.l-table-td{
+    white-space: nowrap;
+}
+.l-table-grpLeft{
+    width:60%;
+    float:left;
+}
+.l-table-grpRight{
+    width:39%;
+}
+.l-pub-btn{
+    margin: 10px 0;
+}
+.l-pub-btn>button,.l-pub-btn>span{
+    float: right;
+}
+.l-pub-btn>button{
+    margin-left: 10px;
+}
+.l-pub-btn>button:nth-child(1)>span{
+    margin-right: 8px;
+}
+.l-pub-btn::after{
+    content: "";
+    display: block;
+    clear: both;
+}

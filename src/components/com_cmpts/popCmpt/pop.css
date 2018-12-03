@@ -1,0 +1,13 @@
+.y-sharepop-operation{
+    width:100%;
+    display:flex;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+body :global .l-pop-input .ant-input{
+    width:71%!important;
+}
+.l-pop-treestyle{
+    width: 60%;
+    margin: 0 auto;
+}

@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.y-label-ul li{
+    list-style: none;
+    cursor: pointer;
+    margin: 10px 0;
+}

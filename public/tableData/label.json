@@ -1,0 +1,33 @@
+{
+    "tabletitle":[
+      {
+        "title": "labelid",
+        "dataIndex": "labelid",
+        "key": "labelid"
+      },
+      {
+      "title": "labelname",
+      "dataIndex": "labelname",
+      "key": "labelname"
+      }, 
+      {
+        "title": "labelnum",
+        "dataIndex": "labelnum",
+        "key": "labelnum"
+      }
+  ],
+    "data":[
+        { 
+          "key": "1",
+          "labelid":"01",
+          "labelname": "hello",
+          "labelnum":"33条"
+        },
+        {
+          "key": "2",
+          "labelid":"02",
+          "labelname": "word",
+          "labelnum":"33条"
+        }
+    ]
+}

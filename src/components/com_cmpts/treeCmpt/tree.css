@@ -1,0 +1,21 @@
+.l-expbook-add,.l-expbook-dec{
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #fff;
+    background-color: #2195f0;
+    margin-top: 10px;
+}
+.l-expbook-dec{
+    margin-top: 21px;
+    float: right;
+    font-size: 21px;
+    width: 18px;
+    height: 18px;
+    background-color: #f00;
+    line-height: 14px;
+}

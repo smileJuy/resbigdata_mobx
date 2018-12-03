@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 表单box样式 */
+.l-form-box{
+    width:100%;
+    height:40px;
+    margin:10px 0;
+}
+.l-form-box .l-grpBtn-box{
+    float:right;
+}
+
+/* 分解词条 */
+.l-openLabel-content{
+    width:100%;
+    background-color:#fff;
+}
+.l-openLabel-content{
+    display:flex;
+}
+.l-openLabel-leftEditor{
+    width:50%;
+    min-width:200px;
+    padding:10px;
+    box-sizing:border-box;
+    min-height:500px;
+    border-right:1px solid #ddd;
+}
+.l-openLabel-rightDoc{
+    width:50%;
+    padding:20px;
+    box-sizing:border-box;
+}
+.l-label-iframe{
+    width:100%;
+    height:100%;
+}
+.l-openLabel-btn{
+    width:305px;
+    float:right;
+    margin-top:20px;
+}
+.l-fome-label{
+    text-align: right;
+    vertical-align: middle;
+    line-height: 39.9999px;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    color: rgba(0, 0, 0, 0.85);
+}
+.l-fome-label>span{
+    color:#f00;
+    margin-right:5px;
+} 
+body .l-openlabel-row .ant-col-sm-18 {
+    width:77%!important;
+}
+body :global .l-openLabel-leftEditor .ant-input{
+    width:99%;
+}
+body :global .l-openlabel-row .ant-input{
+    width:80%;
+}
+
+.l-addlabels-list{    
+    width: 88%;
+    height: 40px;
+    margin-left: 80px;
+    margin-top:10px;
+}
+.l-addlabels-list li{
+    float: left;
+    list-style: none;
+    padding: 3px 10px;
+    position:relative;
+    color: #1890ff;
+    border: 1px solid rgb(24, 144, 255);
+    background: rgba(24, 144, 255, 0.2);
+    border-radius: 38%;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.l-label-del{
+    position: absolute;
+    top: -4px;
+    height: 15px;
+    display: block;
+    width: 15px;
+    font-size: 9px;
+    text-align: center;
+    right: -7px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #f00;
+    cursor:pointer;
+    z-index:9999;
+}
+.l-openlabel-row{
+    width:100%;
+    display:flex;
+}

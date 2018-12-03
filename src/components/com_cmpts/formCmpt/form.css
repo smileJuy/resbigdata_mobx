@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.y-singleselection-container,.y-inputcnt-container{
+    width: 250px;
+    display: inline-block;
+    margin: 0px 10px 10px 0px;
+}
+/* 富文本编辑框样式全局控制 */
+body :global .my-component .l-editor-save{
+    color: #fff!important;
+    background-color: #2195f0!important;
+}
+body :global .my-component .bf-content * {
+    line-height: 40px!important;
+    font-family: braft-icons!important;
+}
+
+body :global .l-addMdlabel-content .ant-col-sm-5,body :global .l-openLabel-content .ant-col-sm-5 {
+    width: 80px;
+}
+body :global .l-addMdlabel-content .ant-col-sm-18{
+    width:90%;
+}
+body :global .l-openLabel-content .ant-col-sm-18{
+    width:87%;
+}
+.my-component{
+    width:97%;
+    border:1px solid #ddd;
+}
+@media screen and (max-width:1320px){
+    body :global .l-addMdlabel-content .ant-col-sm-5,body :global .l-openLabel-content .ant-col-sm-5 {
+        width: 80px;
+    }
+    body :global .l-addMdlabel-content .ant-col-sm-18,body :global .l-openLabel-content .ant-col-sm-18{
+        width:85%;
+    }
+    .my-component{
+        width:96%;
+        border:1px solid #ddd;
+    }
+}
+body :global .y-sharepop-operation .ant-input,body :global .l-pop-input .ant-input{
+    width: 71% !important;
+    height: 34px;
+    line-height: 34px;
+}
